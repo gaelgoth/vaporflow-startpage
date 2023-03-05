@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Loverine;
+  src: url(../../assets/Loverine.otf) format("opentype");
+}
+
+.Link-list {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.Blinking {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.Align-icon {
+  display: flex;
+  align-items: center;
+}
+
+.Hello-User-Font {
+  font-family: Loverine;
+  font-size: 2em;
+}
+
+.FadeInFadeOutText {
+  position: absolute;
+}
+
+.FadeInFadeOutText:nth-child(1) {
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+  animation-direction: alternate-reverse;
+}
+
+.FadeInFadeOutText:nth-child(2) {
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+@keyframes fade {
+  0%,
+  45% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,29 @@
+.nametag {
+  position: absolute;
+}
+
+.nametag:nth-child(1) {
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate-reverse;
+}
+
+.nametag:nth-child(2) {
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
+
+@keyframes fade {
+  0%,
+  45% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "username": "Gaël",
+  "openweather":{
+    "apikey": "YOUR_API_KEY",
+    "language": "en",
+    "units": "metric",
+    "location": "Lausanne"
+  },
+  "theme": [
+    {
+      "name": "Light",
+      "emoji": "🖨️",
+      "theme": "light"
+    },
+    {
+      "name": "Dark",
+      "emoji": "🌑",
+      "theme": "dark"
+    },
+    {
+      "name": "Retro",
+      "emoji": "🌇",
+      "theme": "retro"
+    },
+    {
+      "name": "Lo-Fi",
+      "emoji": "🎶",
+      "theme": "lofi"
+    },
+    {
+      "name": "Business",
+      "emoji": "🗄️",
+      "theme": "business"
+    },
+    {
+      "name": "Synthwave",
+      "emoji": "🌃",
+      "theme": "synthwave"
+    }
+  ]
+}

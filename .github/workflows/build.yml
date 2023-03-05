@@ -1,0 +1,48 @@
+name: Build and push dist to artifact
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    # Define the cache keys for dependencies and artifacts
+    env:
+      CACHE_NAME: cache-dependencies
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Restore the cached dependencies
+      - name: Restore dependencies cache
+        uses: actions/cache@v3
+        with:
+          path: |
+            node_modules
+          key: ${{ runner.os }}-${{ env.CACHE_NAME }}-${{ hashFiles('**/yarn.lock') }}
+        id: restore-cache
+
+      # Install dependencies and build the project
+      - name: Install dependencies and build project
+        if: steps.restore-cache.outputs.cache-hit != 'true'
+        run: |
+          yarn install
+          yarn build
+
+      # Push dist to artifact
+      - name: Push dist to artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: dist
+
+      # Save the new dependencies cache
+      - name: Save dependencies cache
+        if: steps.restore-cache.outputs.cache-hit != 'true'
+        uses: actions/cache@v3
+        with:
+          path: |
+            node_modules
+          key: ${{ runner.os }}-${{ env.CACHE_NAME }}-${{ hashFiles('**/yarn.lock') }}
