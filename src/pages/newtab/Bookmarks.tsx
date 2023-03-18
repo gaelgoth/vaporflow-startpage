@@ -241,9 +241,13 @@ export default function Bookmarks(): JSX.Element {
 
   return (
     <>
-      <div className="col-start-2 text-center">
-        <h3 className="text-accent text-xl font-semibold">Social</h3>
-        {renderLinks(socialLinks)}
+      <div className="card bg-neutral text-neutral-content shadow-xl">
+        <div className="card-body">
+          <div className="col-start-2 text-center">
+            <h3 className="text-accent text-xl font-semibold">Social</h3>
+            {renderLinks(socialLinks)}
+          </div>
+        </div>
       </div>
       <div className="text-center">
         <h3 className="text-accent text-xl font-semibold">News</h3>
