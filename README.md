@@ -5,7 +5,8 @@
 </div>
 
 ---------------------------------------------------------------------------
-Vaporflow is (another) browser start page where I have gathered the elements that I have more about the projects that can be found on [r/startpages](https://www.reddit.com/r/startpages/). This Chrome (maybe soon Firefox as well) extension embed this features:
+
+"Vaporflow is a browser start page where I have gathered the elements that I like the most about the projects found on [r/startpages](https://www.reddit.com/r/startpages/). This Chrome extension (and soon Firefox as well) embeds these features:"
 
 - Based on Tailwind CSS + Daisy UI component
 - OpenWeather
@@ -20,12 +21,12 @@ Vaporflow is (another) browser start page where I have gathered the elements tha
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-  - [Intro](#intro)
-  - [Usage](#usage)
-    - [Prerequisite for OpenWeather](#prerequisite-for-openweather)
-    - [Setup](#setup)
-    - [Configs](#configs)
-    - [Bookmarks](#bookmarks)
+- [Intro](#intro)
+- [Usage](#usage)
+  - [Prerequisite for OpenWeather](#prerequisite-for-openweather)
+  - [Setup](#setup)
+  - [Configs](#configs)
+  - [Bookmarks](#bookmarks)
 - [Tech Docs <a name="tech"></a>](#tech-docs-a-nametecha)
 - [Contributing <a name="contributing"></a>](#contributing-a-namecontributinga)
 
@@ -47,6 +48,7 @@ As soon as the Boilerplate template supports manifest v3, support will be added 
 Want to keep up-to-date with the latest weather conditions right from your start page? No problem! To add the Weather Widget to your start page, simply create an account on [OpenWeather](https://openweathermap.org/) and generate an API KEY.
 
 ### Setup
+
 1. Clone of Fork this repository.
 2. Run `yarn` or `npm i` (check your node version >= 16)
 3. Run `yarn dev` or `npm run dev`
@@ -123,7 +125,6 @@ The configuration of bookmarks is done in [`src/pages/newtab/Bookmarks.tsx`](./s
         {renderLinks(socialLinks)} // 👈 Link list constant
       </div>
 ```
-
 
 # Tech Docs <a name="tech"></a>
 
