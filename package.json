@@ -42,7 +42,7 @@
     "eslint-plugin-react": "^7.32.1",
     "eslint-plugin-react-hooks": "^4.3.0",
     "fs-extra": "^11.1.0",
-    "nodemon": "^2.0.20",
+    "nodemon": "^2.0.22",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4",
     "ts-node": "^10.9.1",
