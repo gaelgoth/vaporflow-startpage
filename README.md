@@ -21,12 +21,12 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Intro](#intro)
-- [Usage](#usage)
-  - [Prerequisite for OpenWeather](#prerequisite-for-openweather)
-  - [Setup](#setup)
-  - [Configs](#configs)
-  - [Bookmarks](#bookmarks)
+  - [Intro](#intro)
+  - [Usage](#usage)
+    - [Prerequisite for OpenWeather](#prerequisite-for-openweather)
+    - [Setup](#setup)
+    - [Configs](#configs)
+    - [Bookmarks](#bookmarks)
 - [Tech Docs <a name="tech"></a>](#tech-docs-a-nametecha)
 - [Contributing <a name="contributing"></a>](#contributing-a-namecontributinga)
 
