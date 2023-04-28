@@ -21,7 +21,6 @@ import { BiRss } from "react-icons/bi";
 import { BsTwitch } from "react-icons/bs";
 import { TbBrandGmail, TbCurrencyBitcoin, TbServer } from "react-icons/tb";
 import { GiClothes, GiComputerFan } from "react-icons/gi";
-import { IoLogoReddit } from "react-icons/io";
 import { RiVisaFill } from "react-icons/ri";
 import { RxClipboardCopy } from "react-icons/rx";
 
@@ -155,12 +154,12 @@ export default function Bookmarks(): JSX.Element {
   const redditLinks = [
     {
       href: "https://www.reddit.com/r/homelab/",
-      icon: <IoLogoReddit className="hidden md:block" size={20} />,
+      icon: <SlSocialReddit className="hidden md:block" size={20} />,
       text: "r/homelab",
     },
     {
       href: "https://www.reddit.com/r/selfhosted/",
-      icon: <IoLogoReddit className="hidden md:block" size={20} />,
+      icon: <SlSocialReddit className="hidden md:block" size={20} />,
       text: "r/selfhosted",
     },
   ];
