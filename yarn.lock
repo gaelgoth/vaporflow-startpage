@@ -1371,10 +1371,10 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
-get-user-locale@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/get-user-locale/-/get-user-locale-2.2.0.tgz#12ba8d40cce587b584e6aa67ca679814a143895b"
-  integrity sha512-hSr+6fGkClkLDaKFb6RjrWIg7HNtotQhwu7Zk2QHOyoS2PQBFBKxi9CmEtntDpyvu2djkTo6qW6MfrUsoiS1IQ==
+get-user-locale@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/get-user-locale/-/get-user-locale-2.2.1.tgz#e7e9f365a202458a360d74c8a3516766d38402ae"
+  integrity sha512-3814zipTZ2MvczOcppEXB3jXu+0HWwj5WmPI6//SeCnUIUaRXu7W4S54eQZTEPadlMZefE+jAlPOn+zY3tD4Qw==
   dependencies:
     "@types/lodash.memoize" "^4.1.7"
     lodash.memoize "^4.1.1"
@@ -2236,15 +2236,15 @@ quick-lru@^5.1.1:
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
 
-react-clock@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/react-clock/-/react-clock-4.1.0.tgz#e48313d90e1ba2b8a6167804dc58a6a9cea8945b"
-  integrity sha512-1BxIDxH8PcEBEUZDIXXS2njK5Gb84U5egTKXZDimF4aKO1bq+/bdX+chMNouLmaOSYB1of3DriLb0WhLOr8lAA==
+react-clock@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/react-clock/-/react-clock-4.2.0.tgz#7161155f46be339070ba09212a24758cfbd2ed1e"
+  integrity sha512-H/700hJPu34ADDGH3fCjY6+4aTwvuVOhvpiOPrl2K67kwxa6npe2UNdO7nwayrTiGtZfgn2j2x2KRsn9TIHv1g==
   dependencies:
     "@types/react" "*"
     "@wojtekmaj/date-utils" "^1.1.2"
     clsx "^1.2.1"
-    get-user-locale "^2.0.0"
+    get-user-locale "^2.2.1"
     prop-types "^15.6.0"
 
 react-dom@^18.2.0:
