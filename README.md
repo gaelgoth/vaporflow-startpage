@@ -49,12 +49,12 @@ Want to keep up-to-date with the latest weather conditions right from your start
 
 ### Setup
 
-1. Clone of Fork this repository.
+1. Clone of Fork this repository. `git clone git@github.com:gaelgoth/vaporflow-startpage.git`
 2. Run `yarn` or `npm i` (check your node version >= 16)
 3. Run `yarn dev` or `npm run dev`
 4. Load Extension on Chrome
    1. Open - Chrome browser
-   2. Access - chrome://extensions
+   2. Access - `chrome://extensions`
    3. Check - Developer mode
    4. Find - Load unpacked extension
    5. Select - `dist` folder in this project (after dev or build)
